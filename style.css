@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 120px;
+  background-color: #e1e1e1;
+}
+
+header * {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Georgia";
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 80px;
+}
+
+header a:hover {
+  color: #a70f0f
+}
+
+header a.current {
+  color: #a70f0f
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
