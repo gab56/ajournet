@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-size: 20px;
+    font-family: "Arial";
 }
 
 header {
@@ -17,6 +19,15 @@ header * {
     font-size: 18px;
     font-weight: bold;
     font-family: "Georgia";
+}
+
+h1,
+h2 {
+    color: #a70f0f;
+}
+
+h2 {
+    font-size: 22px;
 }
 
 header ul {
@@ -38,15 +49,53 @@ header a.current {
 header li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
 }
 
 section {
-    height: 100vh;
-    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+section>div {
+    margin-top: 60px;
+}
+
+div .highlight {
+    color: #a70f0f
+}
+
+img .layout-img {
+    width: 100vw;
+}
+
+div .column {
+    float: left;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+div .red-column {
+    background-color: #a70f0f;
+    color: white;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .left-list {
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%
+}
+
+div .column-figure {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .profile-img {
