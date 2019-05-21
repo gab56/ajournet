@@ -1,79 +1,80 @@
 body {
-  margin: 0;
-  font-size: 20px;
-  font-family: "Arial";
+    margin: 0;
+    font-size: 20px;
+    font-family: "Arial";
 }
 
 header {
-  display: flex;
-  height: 120px;
-  background-color: #e1e1e1;
+    display: flex;
+    height: 120px;
+    background-color: #e1e1e1;
 }
 
 header * {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-top: auto;
-  display: inline;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Georgia";
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Georgia";
 }
 
-h1, h2 {
-  color: #a70f0f;
+h1,
+h2 {
+    color: #a70f0f;
 }
 
 h2 {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 header ul {
-  padding: 0;
+    padding: 0;
 }
 
 header li {
-  margin-left: 80px;
+    margin-left: 25px;
 }
 
 header a:hover {
-  color: #a70f0f
+    color: #a70f0f
 }
 
 header a.current {
-  color: #a70f0f
+    color: #a70f0f
 }
 
 header li a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 section {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-section > div {
-  margin-top: 60px;
+section>div {
+    margin-top: 60px;
 }
 
 div .highlight {
-  color: #a70f0f
+    color: #a70f0f
 }
 
 img .layout-img {
-  width: 100vw;
+    width: 100vw;
 }
 
 div .column {
-  float: left;
-  width: 50%;
-  height: 400px;
-  overflow: hidden;
-  margin-bottom: 40px;
+    float: left;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 40px;
 }
 
 div .triple-column {
@@ -84,31 +85,89 @@ div .triple-column {
 }
 
 div .red-column {
-  background-color: #a70f0f;
-  color: white;
-  margin-top: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: #a70f0f;
+    color: white;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div .left-list {
-  text-align: left;
-  margin-left: 8%;
-  margin-right: 8%
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%
 }
 
 div .column-figure {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .profile-img {
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-  width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+hr {
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 100vh;
+    width: 1px;
+}
+
+.contact-profile-list {
+    display: -webkit-inline-box;
+    height: 30pc;
+}
+
+.contact-profile {
+    width: 50%;
+}
+
+.contact-row input,
+textarea {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-title-page {
+    font-size: 200%;
+    color: #a70f0f;
+}
+
+.contact-profile h3 {
+    width: 20%;
+    margin: auto;
+    color: #a70f0f;
+    text-align: center;
+    height: 7pc;
+}
+
+.contact-row {
+    display: inline-flex;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.contact-column {
+    flex: 50%;
+}
+
+.contact-submit {
+    width: 90%;
+}
+
+.contact-btn {
+    background-color: #a70f0f;
+    color: #e1e1e1;
+    width: 115px;
+    height: 40px;
+    float: right;
 }
 
 .service-label {
@@ -132,8 +191,13 @@ div .column-figure {
   height: 60%;
   width: 60%;
 }
+.contact-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 footer {
-  background-color: #a70f0f;
-  height: 40px;
+    text-align: center;
+    padding: 50px;
 }
