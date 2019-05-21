@@ -112,7 +112,7 @@ hr {
     width: 1px;
 }
 
-.profile-list {
+.contact-profile-list {
     display: -webkit-inline-box;
     height: 30pc;
 }
@@ -123,17 +123,17 @@ hr {
 
 .contact-row input,
 textarea {
-    width: 130%;
+    width: 100%;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-.title-page {
+.contact-title-page {
     font-size: 200%;
     color: #a70f0f;
 }
 
-.profile h3 {
+.contact-profile h3 {
     width: 20%;
     margin: auto;
     color: #a70f0f;
@@ -141,17 +141,18 @@ textarea {
     height: 7pc;
 }
 
-.row {
+.contact-row {
     display: inline-flex;
     text-align: left;
+    padding-left: 3%;
 }
 
-.column {
+.contact-column {
     flex: 50%;
 }
 
 .contact-submit {
-    width: 133%;
+    width: 90%;
 }
 
 .contact-btn {
@@ -162,7 +163,7 @@ textarea {
     float: right;
 }
 
-.row:after {
+.contact-row:after {
     content: "";
     display: table;
     clear: both;
