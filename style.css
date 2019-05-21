@@ -76,6 +76,13 @@ div .column {
   margin-bottom: 40px;
 }
 
+div .triple-column {
+  float: left;
+  width: 33.3%;
+  margin-top: 60px;
+  position: relative;
+}
+
 div .red-column {
   background-color: #a70f0f;
   color: white;
@@ -102,4 +109,31 @@ div .column-figure {
   margin: auto;
   margin-bottom: 20px;
   width: 300px;
+}
+
+.service-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #a70f0f;
+  color: white;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.service-label-text {
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+}
+
+.service-img {
+  height: 60%;
+  width: 60%;
+}
+
+footer {
+  background-color: #a70f0f;
+  height: 40px;
 }
