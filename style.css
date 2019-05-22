@@ -169,6 +169,29 @@ textarea {
     clear: both;
 }
 
+.logo-img {
+    width: 120%;
+    margin-bottom: 0%
+}
+
+#core .container {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#core div h5 {
+    color: #a70f0f;
+}
+
+#core .column {
+    width: 100px;
+    margin-bottom: 40px;
+    margin: 0px 50px 0px 60px;
+    float: left;
+    overflow: initial;
+}
+
 footer {
     text-align: center;
     padding: 50px;
