@@ -221,6 +221,42 @@ textarea {
     overflow: initial;
 }
 
+#portfolio .row {
+    width: 100%;
+}
+
+#portfolio img {
+    transform: skewX(15deg);
+    margin-top: 15%;
+    margin-bottom: 25px;
+    width: 70%;
+    vertical-align: middle;
+}
+
+#portfolio .btns-row {
+    width: 50%;
+    display: inline-table;
+    transform: skewX(-15deg);
+}
+
+#portfolio .column {
+    vertical-align: middle;
+    width: 33%;
+    margin-bottom: -6px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+#portfolio .btn {
+    background: #a70f0f;
+    color: white;
+    font-size: 20px;
+}
+
+#portfolio h3 {
+    color: #a70f0f;
+}
+
 footer {
     text-align: center;
     padding: 50px;
