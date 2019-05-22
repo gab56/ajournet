@@ -120,12 +120,16 @@ hr {
 }
 
 .contact-profile-list {
-    display: -webkit-inline-box;
+    display: flex;
     height: 30pc;
 }
 
 .contact-profile {
     width: 50%;
+}
+
+.contact-profile-pic {
+    width: 38%;
 }
 
 .contact-row input,
@@ -140,26 +144,23 @@ textarea {
     color: #a70f0f;
 }
 
-.contact-profile h3 {
-    width: 20%;
-    margin: auto;
-    color: #a70f0f;
-    text-align: center;
-    height: 7pc;
-}
-
 .contact-row {
-    display: inline-flex;
+    display: flex;
     text-align: left;
-    padding-left: 3%;
 }
 
-.contact-column {
-    flex: 50%;
+.contact-column-left {
+    flex: 25%;
+    margin-left: 15%;
 }
 
-.contact-submit {
-    width: 90%;
+.contact-column-center {
+    flex: 5%;
+}
+
+.contact-column-right {
+    flex: 35%;
+    margin-right: 15%;
 }
 
 .contact-btn {
