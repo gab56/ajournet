@@ -69,12 +69,16 @@ div .highlight {
     width: 100vw;
 }
 
+div .small-column {
+    float: left;
+    width: 50%;
+}
+
 div .column {
     float: left;
     width: 50%;
     height: 400px;
     overflow: hidden;
-    margin-bottom: 40px;
 }
 
 div .triple-column {
@@ -130,6 +134,10 @@ hr {
 
 .contact-profile-pic {
     width: 38%;
+}
+
+.special-row {
+    display: inline-block;
 }
 
 .contact-row input,
@@ -266,6 +274,7 @@ textarea {
 }
 
 footer {
-    text-align: center;
-    padding: 50px;
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
 }
