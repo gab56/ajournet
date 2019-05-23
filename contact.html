@@ -7,6 +7,8 @@
 </head>
 
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="mail.js"></script>
     <div>
         <img src="images/logos/ajournet-logo.svg" class="profile-img">
     </div>
@@ -54,7 +56,7 @@
                     </div>
 
                     <div class="contact-column-right">
-                        <form>
+                        <form method="POST">
                             <div class="contact-row">
                                 <input type="text" name="contact_name" value="" placeholder="Name">
                             </div>
@@ -65,18 +67,16 @@
                                 <textarea name="contact_message" rows="5" placeholder="Message"></textarea>
                             </div>
                             <div>
-                                <button type="submit" name="button" class="contact-btn">
+                                <button id="a" type="submit" name="button" class="contact-btn">
                                     <i aria-hidden="true"></i> Submit
                                 </button>
                             </div>
                         </form>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>
 </body>
 <footer></footer>
-
 </html>
