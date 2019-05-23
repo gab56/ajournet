@@ -218,6 +218,7 @@ textarea {
     width: 100px;
     margin-bottom: 40px;
     margin: 0px 50px 0px 60px;
+    height: 200px;
     float: left;
     overflow: initial;
 }
@@ -228,9 +229,9 @@ textarea {
 
 #portfolio img {
     transform: skewX(15deg);
-    margin-top: 15%;
-    margin-bottom: 25px;
-    width: 70%;
+    margin-top: 25%;
+    margin-bottom: 15px;
+    width: 50%;
     vertical-align: middle;
 }
 
@@ -243,15 +244,21 @@ textarea {
 #portfolio .column {
     vertical-align: middle;
     width: 33%;
-    margin-bottom: -6px;
+    height: 300px;
+    margin-bottom: -5px;
     border-top: solid 1px black;
     border-bottom: solid 1px black;
 }
 
 #portfolio .btn {
-    background: #a70f0f;
+    background-color: #a70f0f;
     color: white;
-    font-size: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 75%;
+    height: 15%;
+    margin-inline-start: 15%;
+    transform: skewX(15deg);
 }
 
 #portfolio h3 {
